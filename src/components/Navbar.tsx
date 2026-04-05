@@ -3,9 +3,10 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { label: "HOME", href: "#hero" },
-  { label: "INTRO", href: "#about" },
+  { label: "ABOUT", href: "#about" },
   { label: "SERVICES", href: "#services" },
-  { label: "PORTFOLIO", href: "#portfolio" },
+  { label: "EXPERIENCE", href: "#experience" },
+  { label: "PORTFOLIO", href: "#projects" },
   { label: "CONTACT", href: "#contact" },
 ];
 
@@ -16,7 +17,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         <a href="#hero" className="text-lg font-heading font-bold tracking-widest text-foreground">
-          HOME
+          JP
         </a>
         <div className="hidden md:flex items-center gap-8">
           {navLinks.slice(1).map((link) => (
