@@ -1,4 +1,5 @@
 import { ChevronDown, Download } from "lucide-react";
+import heroBg from "@/assets/hero-bg.jpg";
 import Reveal from "./Reveal";
 import { motion } from "framer-motion";
 
@@ -13,7 +14,15 @@ const tags = ["SQL", "Power BI", "Python", "Tableau", "Snowflake", "DAX", "Postg
 
 const HeroSection = () => {
   return (
-    <section id="hero" className="relative min-h-screen flex items-center overflow-hidden bg-background">
+    <section id="hero" className="relative min-h-screen flex items-center overflow-hidden">
+      <img
+        src={heroBg}
+        alt=""
+        className="absolute inset-0 w-full h-full object-cover opacity-35"
+        width={1920}
+        height={1080}
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/80 to-background" />
 
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 pt-28 pb-16">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
