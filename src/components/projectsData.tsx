@@ -20,7 +20,7 @@ export const projects: Project[] = [
     metrics: [{ val: "3", label: "Features" }, { val: "Live", label: "Deployed" }],
     tags: ["Lovable", "AI Development", "UX Design"],
     href: "https://github.com/Jeseenacodes/AI-Powered-Eid-Learning-Card-Creator-App",
-    liveHref: "https://eid-stories-for-kids.lovable.app",
+    liveHref: "https://little-noories.lovable.app/",
     featured: true,
     svg: (
       <svg viewBox="0 0 300 180" className="w-full h-full">
