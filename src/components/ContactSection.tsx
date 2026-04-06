@@ -77,9 +77,9 @@ const ContactSection = () => {
                 <div className="w-9 h-9 rounded-lg bg-primary/[0.08] border border-primary/15 flex items-center justify-center flex-shrink-0 group-hover:bg-primary/[0.15] transition-colors">
                   {link.icon}
                 </div>
-                <div>
+                <div className="min-w-0">
                   <div className="text-[0.62rem] tracking-[0.12em] uppercase text-muted-foreground font-medium">{link.label}</div>
-                  <div className="text-sm text-foreground mt-0.5">{link.value}</div>
+                  <div className="text-xs text-foreground mt-0.5 truncate">{link.value}</div>
                 </div>
               </a>
             ))}
