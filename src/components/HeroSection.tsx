@@ -73,10 +73,6 @@ const HeroSection = () => {
                 <a href="#contact" className="px-6 py-2.5 border border-border text-foreground font-heading text-xs tracking-[0.12em] uppercase rounded-lg font-medium transition-all duration-200 hover:border-primary hover:text-primary hover:translate-y-[-2px]">
                   Get In Touch
                 </a>
-                <a href="/Jeseena_Parveen_K_Resume.pdf" download className="px-6 py-2.5 border border-border text-foreground font-heading text-xs tracking-[0.12em] uppercase rounded-lg font-medium transition-all duration-200 hover:border-primary hover:text-primary hover:translate-y-[-2px] inline-flex items-center gap-2">
-                  <Download className="w-3.5 h-3.5" />
-                  Resume
-                </a>
               </div>
             </Reveal>
 
