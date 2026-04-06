@@ -25,8 +25,8 @@ const links = [
   },
   {
     label: "Portfolio",
-    value: "jeseenacodes.github.io/my-portfolio",
-    href: "https://jeseenacodes.github.io/my-portfolio/",
+    value: "jeseenacodes.github.io/my_portfolio",
+    href: "https://jeseenacodes.github.io/my_portfolio/",
     icon: (
       <svg viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 stroke-primary fill-none">
         <circle cx="12" cy="12" r="10" />
