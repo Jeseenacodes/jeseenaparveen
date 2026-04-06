@@ -40,9 +40,6 @@ const AboutSection = () => {
                 I bring structured thinking, strong communication, and stakeholder-focused problem solving to analytics projects.
               </p>
               <div className="flex gap-4 pt-4">
-                <a href="/Jeseena_Parveen_K_Resume.pdf" download className="px-6 py-3 bg-primary text-primary-foreground text-sm tracking-wider rounded-lg hover:opacity-90 transition-opacity">
-                  Show CV
-                </a>
                 <a href="#contact" className="px-6 py-3 border border-primary text-primary text-sm tracking-wider rounded-lg hover:bg-primary/10 transition-colors">
                   Hire Me
                 </a>
