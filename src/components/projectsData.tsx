@@ -97,7 +97,7 @@ export const projects: Project[] = [
     href: "https://github.com/Jeseenacodes/Customer-Churn-Analysis---Databel---PBI",
     svg: (
       <svg viewBox="0 0 300 180" className="w-full h-full">
-        <circle cx="150" cy="90" r="70" fill="none" stroke="hsl(155 70% 45%)" strokeWidth="16" strokeDasharray="290 150" opacity="0.7" />
+        <circle cx="150" cy="90" r="70" fill="none" stroke="hsl(12 80% 62%)" strokeWidth="16" strokeDasharray="290 150" opacity="0.7" />
         <circle cx="150" cy="90" r="70" fill="none" className="stroke-muted-foreground/30" strokeWidth="16" strokeDasharray="150 290" strokeDashoffset="-290" opacity="0.4" />
         <text x="150" y="85" fontFamily="Arial" fontSize="20" fontWeight="800" className="fill-foreground" textAnchor="middle">26.86%</text>
         <text x="150" y="102" fontFamily="Arial" fontSize="9" className="fill-muted-foreground" textAnchor="middle">CHURN RATE</text>
