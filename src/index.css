@@ -75,7 +75,7 @@
 
   .gradient-text {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, hsl(var(--primary)), hsl(290 70% 75%));
+    background-image: linear-gradient(135deg, hsl(var(--primary)), hsl(140 60% 55%));
   }
 
   .section-padding {
