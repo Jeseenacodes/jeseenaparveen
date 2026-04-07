@@ -62,8 +62,8 @@ export const projects: Project[] = [
       <svg viewBox="0 0 600 220" preserveAspectRatio="xMidYMid slice" className="w-full h-full">
         <defs>
           <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stopColor="hsl(155 70% 45%)" stopOpacity="0.3" />
-            <stop offset="100%" stopColor="hsl(155 70% 45%)" stopOpacity="0" />
+            <stop offset="0%" stopColor="hsl(12 80% 62%)" stopOpacity="0.3" />
+            <stop offset="100%" stopColor="hsl(12 80% 62%)" stopOpacity="0" />
           </linearGradient>
         </defs>
         <polygon points="0,180 80,140 160,120 240,130 320,90 400,65 480,75 560,40 600,50 600,220 0,220" fill="url(#g1)" />
