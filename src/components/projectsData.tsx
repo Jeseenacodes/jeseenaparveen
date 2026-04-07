@@ -120,7 +120,7 @@ export const projects: Project[] = [
           </linearGradient>
         </defs>
         <polygon points="0,150 50,120 100,90 150,100 200,70 250,55 300,60 300,180 0,180" fill="url(#g2)" />
-        <polyline points="0,150 50,120 100,90 150,100 200,70 250,55 300,60" stroke="hsl(155 70% 45%)" strokeWidth="2" fill="none" />
+        <polyline points="0,150 50,120 100,90 150,100 200,70 250,55 300,60" stroke="hsl(12 80% 62%)" strokeWidth="2" fill="none" />
       </svg>
     ),
   },
