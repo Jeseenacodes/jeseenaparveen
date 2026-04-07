@@ -67,7 +67,7 @@ export const projects: Project[] = [
           </linearGradient>
         </defs>
         <polygon points="0,180 80,140 160,120 240,130 320,90 400,65 480,75 560,40 600,50 600,220 0,220" fill="url(#g1)" />
-        <polyline points="0,180 80,140 160,120 240,130 320,90 400,65 480,75 560,40 600,50" stroke="hsl(350 80% 55%)" strokeWidth="2" fill="none" />
+        <polyline points="0,180 80,140 160,120 240,130 320,90 400,65 480,75 560,40 600,50" stroke="hsl(155 70% 45%)" strokeWidth="2" fill="none" />
       </svg>
     ),
   },
