@@ -36,10 +36,8 @@ const HeroSection = () => {
         </Reveal>
 
         <Reveal delay={0.1}>
-          <h1 className="font-heading text-7xl sm:text-8xl md:text-9xl lg:text-[10rem] font-extrabold leading-[0.85] tracking-tight text-center text-foreground uppercase">
-            Jeseena
-            <br />
-            <span className="gradient-text">Parveen</span>
+          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] font-extrabold leading-none tracking-tight text-center text-foreground uppercase whitespace-nowrap" style={{ WebkitTextStroke: '1px hsl(var(--primary) / 0.4)' }}>
+            Jeseena <span className="gradient-text">Parveen K</span>
           </h1>
         </Reveal>
 
