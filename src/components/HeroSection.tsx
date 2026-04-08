@@ -36,17 +36,17 @@ const HeroSection = () => {
         </Reveal>
 
         <Reveal delay={0.1}>
-          <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground font-medium mb-4 text-center">
-            Jeseena Parveen K
-          </p>
+          <h1 className="font-heading text-7xl sm:text-8xl md:text-9xl lg:text-[10rem] font-extrabold leading-[0.85] tracking-tight text-center text-foreground uppercase">
+            Jeseena
+            <br />
+            <span className="gradient-text">Parveen</span>
+          </h1>
         </Reveal>
 
         <Reveal delay={0.15}>
-          <h1 className="font-heading text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold leading-[0.88] tracking-tight text-center text-foreground">
-            DATA
-            <br />
-            <span className="gradient-text">ANALYST</span>
-          </h1>
+          <p className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light tracking-[0.25em] uppercase text-muted-foreground text-center mt-4">
+            Data Analyst
+          </p>
         </Reveal>
 
         <Reveal delay={0.2}>
