@@ -62,12 +62,12 @@ export const projects: Project[] = [
       <svg viewBox="0 0 600 220" preserveAspectRatio="xMidYMid slice" className="w-full h-full">
         <defs>
           <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stopColor="hsl(0 85% 50%)" stopOpacity="0.3" />
-            <stop offset="100%" stopColor="hsl(0 85% 50%)" stopOpacity="0" />
+            <stop offset="0%" stopColor="hsl(12 80% 62%)" stopOpacity="0.3" />
+            <stop offset="100%" stopColor="hsl(12 80% 62%)" stopOpacity="0" />
           </linearGradient>
         </defs>
         <polygon points="0,180 80,140 160,120 240,130 320,90 400,65 480,75 560,40 600,50 600,220 0,220" fill="url(#g1)" />
-        <polyline points="0,180 80,140 160,120 240,130 320,90 400,65 480,75 560,40 600,50" stroke="hsl(0 85% 50%)" strokeWidth="2" fill="none" />
+        <polyline points="0,180 80,140 160,120 240,130 320,90 400,65 480,75 560,40 600,50" stroke="hsl(12 80% 62%)" strokeWidth="2" fill="none" />
       </svg>
     ),
   },
@@ -97,7 +97,7 @@ export const projects: Project[] = [
     href: "https://github.com/Jeseenacodes/Customer-Churn-Analysis---Databel---PBI",
     svg: (
       <svg viewBox="0 0 300 180" className="w-full h-full">
-        <circle cx="150" cy="90" r="70" fill="none" stroke="hsl(0 85% 50%)" strokeWidth="16" strokeDasharray="290 150" opacity="0.7" />
+        <circle cx="150" cy="90" r="70" fill="none" stroke="hsl(12 80% 62%)" strokeWidth="16" strokeDasharray="290 150" opacity="0.7" />
         <circle cx="150" cy="90" r="70" fill="none" className="stroke-muted-foreground/30" strokeWidth="16" strokeDasharray="150 290" strokeDashoffset="-290" opacity="0.4" />
         <text x="150" y="85" fontFamily="Arial" fontSize="20" fontWeight="800" className="fill-foreground" textAnchor="middle">26.86%</text>
         <text x="150" y="102" fontFamily="Arial" fontSize="9" className="fill-muted-foreground" textAnchor="middle">CHURN RATE</text>
@@ -115,12 +115,12 @@ export const projects: Project[] = [
       <svg viewBox="0 0 300 180" className="w-full h-full">
         <defs>
           <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
-           <stop offset="0%" stopColor="hsl(0 85% 50%)" stopOpacity="0.25" />
-            <stop offset="100%" stopColor="hsl(0 85% 50%)" stopOpacity="0" />
+           <stop offset="0%" stopColor="hsl(12 80% 62%)" stopOpacity="0.25" />
+            <stop offset="100%" stopColor="hsl(12 80% 62%)" stopOpacity="0" />
           </linearGradient>
         </defs>
         <polygon points="0,150 50,120 100,90 150,100 200,70 250,55 300,60 300,180 0,180" fill="url(#g2)" />
-        <polyline points="0,150 50,120 100,90 150,100 200,70 250,55 300,60" stroke="hsl(0 85% 50%)" strokeWidth="2" fill="none" />
+        <polyline points="0,150 50,120 100,90 150,100 200,70 250,55 300,60" stroke="hsl(12 80% 62%)" strokeWidth="2" fill="none" />
       </svg>
     ),
   },
@@ -135,12 +135,12 @@ export const projects: Project[] = [
       <svg viewBox="0 0 300 180" className="w-full h-full">
         <defs>
           <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stopColor="hsl(0 85% 50%)" stopOpacity="0.2" />
-            <stop offset="100%" stopColor="hsl(0 85% 50%)" stopOpacity="0" />
+            <stop offset="0%" stopColor="hsl(12 80% 62%)" stopOpacity="0.2" />
+            <stop offset="100%" stopColor="hsl(12 80% 62%)" stopOpacity="0" />
           </linearGradient>
         </defs>
         <polygon points="0,160 60,130 120,100 180,115 240,80 300,60 300,180 0,180" fill="url(#g3)" />
-        <polyline points="0,160 60,130 120,100 180,115 240,80 300,60" stroke="hsl(0 85% 50%)" strokeWidth="2" fill="none" />
+        <polyline points="0,160 60,130 120,100 180,115 240,80 300,60" stroke="hsl(12 80% 62%)" strokeWidth="2" fill="none" />
       </svg>
     ),
   },
