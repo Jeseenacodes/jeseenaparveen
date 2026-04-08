@@ -67,7 +67,7 @@ const HeroSection = () => {
 
             <Reveal delay={0.3}>
               <div className="flex gap-3 flex-wrap mb-6">
-                <a href="#projects" className="px-6 py-2.5 bg-primary text-primary-foreground font-heading text-xs tracking-[0.12em] uppercase rounded-lg font-semibold transition-all duration-200 hover:translate-y-[-2px] hover:shadow-[0_12px_40px_hsl(12_80%_62%/0.3)]">
+                <a href="#projects" className="px-6 py-2.5 bg-primary text-primary-foreground font-heading text-xs tracking-[0.12em] uppercase rounded-lg font-semibold transition-all duration-200 hover:translate-y-[-2px] hover:shadow-[0_12px_40px_hsl(350_80%_55%/0.3)]">
                   View Projects
                 </a>
                 <a href="#contact" className="px-6 py-2.5 border border-border text-foreground font-heading text-xs tracking-[0.12em] uppercase rounded-lg font-medium transition-all duration-200 hover:border-primary hover:text-primary hover:translate-y-[-2px]">
