@@ -12,8 +12,6 @@ const stats = [
 
 const tags = ["SQL", "Power BI", "Python", "Tableau", "Snowflake", "DAX", "PostgreSQL"];
 
-const tags = ["SQL", "Power BI", "Python", "Tableau", "Snowflake", "DAX", "PostgreSQL"];
-
 const HeroSection = () => {
   return (
     <section id="hero" className="relative min-h-screen flex flex-col overflow-hidden">
@@ -26,19 +24,19 @@ const HeroSection = () => {
       />
       <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/80 to-background" />
 
-      {/* Big centered name + designation overlay */}
+      {/* Centered name + designation + tagline */}
       <div className="relative z-10 flex-1 flex flex-col items-center justify-center pt-24 pb-8">
         <Reveal>
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-green-500/20 bg-green-500/[0.06] mb-6">
-            <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-            <span className="text-[0.68rem] tracking-[0.15em] uppercase text-green-400 font-medium">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/20 bg-primary/[0.06] mb-6">
+            <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
+            <span className="text-[0.68rem] tracking-[0.15em] uppercase text-primary font-medium">
               Open to Remote Roles
             </span>
           </div>
         </Reveal>
 
         <Reveal delay={0.1}>
-          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] font-extrabold leading-none tracking-tight text-center text-foreground uppercase whitespace-nowrap" style={{ WebkitTextStroke: '1px hsl(var(--primary) / 0.4)' }}>
+          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] font-extrabold leading-none tracking-tight text-center text-foreground uppercase whitespace-nowrap">
             Jeseena <span className="gradient-text">Parveen K</span>
           </h1>
         </Reveal>
@@ -77,37 +75,26 @@ const HeroSection = () => {
         </Reveal>
       </div>
 
-      {/* Bottom section: bio + stats */}
+      {/* Bottom section: stats only */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 pb-20">
-        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-start">
-          <Reveal delay={0.35}>
-            <p className="text-sm leading-[1.85] text-muted-foreground max-w-lg">
-              I am a <strong className="text-foreground font-medium">PL-300 certified Power BI professional</strong> specializing
-              in transforming complex datasets into clear, actionable business insights. I deliver end-to-end analytics
-              solutions focusing on <span className="text-primary font-medium">intuitive, business-oriented reports</span> that
-              help stakeholders make informed decisions.
-            </p>
-          </Reveal>
-
-          <Reveal delay={0.3} direction="right">
-            <div className="grid grid-cols-2 gap-3">
-              {stats.map((s, i) => (
-                <motion.div
-                  key={s.label}
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ delay: 0.5 + i * 0.1, duration: 0.5 }}
-                  className="rounded-xl p-5 relative overflow-hidden group transition-all duration-300 hover:translate-y-[-4px] bg-card border border-border hover:border-primary/30 hover:glow-box"
-                >
-                  <div className="absolute top-0 left-0 w-[3px] h-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-b from-primary to-primary/50" />
-                  <div className="font-heading text-3xl font-bold leading-none gradient-text">{s.val}</div>
-                  <div className="text-[0.62rem] tracking-[0.12em] uppercase text-muted-foreground font-medium mt-1">{s.label}</div>
-                  <div className="text-xs text-muted-foreground/70 mt-2 leading-relaxed">{s.desc}</div>
-                </motion.div>
-              ))}
-            </div>
-          </Reveal>
-        </div>
+        <Reveal delay={0.3} direction="right">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+            {stats.map((s, i) => (
+              <motion.div
+                key={s.label}
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 0.5 + i * 0.1, duration: 0.5 }}
+                className="rounded-xl p-5 relative overflow-hidden group transition-all duration-300 hover:translate-y-[-4px] bg-card border border-border hover:border-primary/30 hover:glow-box"
+              >
+                <div className="absolute top-0 left-0 w-[3px] h-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-b from-primary to-primary/50" />
+                <div className="font-heading text-3xl font-bold leading-none gradient-text">{s.val}</div>
+                <div className="text-[0.62rem] tracking-[0.12em] uppercase text-muted-foreground font-medium mt-1">{s.label}</div>
+                <div className="text-xs text-muted-foreground/70 mt-2 leading-relaxed">{s.desc}</div>
+              </motion.div>
+            ))}
+          </div>
+        </Reveal>
       </div>
 
       <a href="#about" className="absolute bottom-8 left-1/2 -translate-x-1/2 text-foreground/50 hover:text-primary transition-colors animate-bounce">
