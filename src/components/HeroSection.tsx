@@ -16,7 +16,7 @@ const HeroSection = () => {
         src={heroBg}
         alt=""
         style={{ y: bgY }}
-        className="absolute inset-0 w-full h-full object-cover opacity-35"
+        className="absolute inset-0 w-full h-full object-cover object-center opacity-35"
         width={1920}
         height={1080}
       />
@@ -37,8 +37,8 @@ const HeroSection = () => {
       {/* Centered name + designation + tagline */}
       <div className="relative z-10 flex-1 flex flex-col items-center justify-center pb-8">
         <Reveal delay={0.1}>
-          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] font-extrabold leading-none tracking-tight text-center text-foreground uppercase whitespace-nowrap drop-shadow-[0_0_40px_hsl(var(--primary)/0.3)] [text-shadow:0_0_80px_hsl(var(--primary)/0.15)]">
-            Jeseena <span className="gradient-text drop-shadow-[0_0_60px_hsl(var(--primary)/0.5)]">Parveen K</span>
+          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] font-extrabold leading-none tracking-tight text-center text-foreground uppercase whitespace-nowrap drop-shadow-[0_0_20px_hsl(var(--primary)/0.15)]">
+            Jeseena <span className="gradient-text drop-shadow-[0_0_30px_hsl(var(--primary)/0.2)]">Parveen K</span>
           </h1>
         </Reveal>
 
