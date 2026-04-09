@@ -1,8 +1,8 @@
 import { ChevronDown } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import Reveal from "./Reveal";
-
-const tags = ["SQL", "Power BI", "Python", "Tableau", "Snowflake", "DAX", "PostgreSQL"];
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
 
 const HeroSection = () => {
   return (
