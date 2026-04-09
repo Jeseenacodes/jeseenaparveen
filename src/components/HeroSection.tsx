@@ -12,6 +12,8 @@ const stats = [
 
 const tags = ["SQL", "Power BI", "Python", "Tableau", "Snowflake", "DAX", "PostgreSQL"];
 
+const tags = ["SQL", "Power BI", "Python", "Tableau", "Snowflake", "DAX", "PostgreSQL"];
+
 const HeroSection = () => {
   return (
     <section id="hero" className="relative min-h-screen flex flex-col overflow-hidden">
