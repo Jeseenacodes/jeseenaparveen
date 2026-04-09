@@ -16,7 +16,7 @@ const HeroSection = () => {
         src={heroBg}
         alt=""
         style={{ y: bgY }}
-        className="absolute inset-0 w-full h-full object-cover opacity-35"
+        className="absolute inset-0 w-full h-full object-cover object-center opacity-35"
         width={1920}
         height={1080}
       />
