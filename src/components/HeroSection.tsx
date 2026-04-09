@@ -3,13 +3,19 @@ import heroBg from "@/assets/hero-bg.jpg";
 import Reveal from "./Reveal";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+const tags = ["SQL", "Power BI", "Python", "Tableau", "Snowflake", "DAX", "PostgreSQL"];
 
 const HeroSection = () => {
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({ target: sectionRef, offset: ["start start", "end start"] });
+  const bgY = useTransform(scrollYProgress, [0, 1], ["0%", "30%"]);
+
   return (
-    <section id="hero" className="relative min-h-screen flex flex-col overflow-hidden">
-      <img
+    <section ref={sectionRef} id="hero" className="relative min-h-screen flex flex-col overflow-hidden">
+      <motion.img
         src={heroBg}
         alt=""
+        style={{ y: bgY }}
         className="absolute inset-0 w-full h-full object-cover opacity-35"
         width={1920}
         height={1080}
