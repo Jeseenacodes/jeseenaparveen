@@ -18,7 +18,7 @@ export const projects: Project[] = [
     desc: "Conceptualized and built a fully deployed interactive children's web app using AI-assisted vibe coding — from idea to live product.",
     category: "AI · UX Design",
     metrics: [{ val: "3", label: "Features" }, { val: "Live", label: "Deployed" }],
-    tags: ["Lovable", "AI Development", "UX Design"],
+    tags: ["AI Development", "UX Design"],
     href: "https://github.com/Jeseenacodes/AI-Powered-Eid-Learning-Card-Creator-App",
     liveHref: "https://little-noories.lovable.app/",
     featured: true,
