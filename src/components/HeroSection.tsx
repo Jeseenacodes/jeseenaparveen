@@ -35,7 +35,7 @@ const HeroSection = () => {
       </div>
 
       {/* Centered name + designation + tagline */}
-      <div className="relative z-10 flex-1 flex flex-col items-center justify-end pb-20">
+      <div className="relative z-10 flex-1 flex flex-col items-center justify-end pt-[55vh] sm:pt-[45vh] md:pt-[35vh] pb-24 px-4">
         <Reveal delay={0.1}>
           <h1
             style={{ fontSize: "clamp(1.75rem, 6vw, 4.5rem)" }}
