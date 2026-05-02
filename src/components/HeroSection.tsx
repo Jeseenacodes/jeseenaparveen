@@ -35,15 +35,15 @@ const HeroSection = () => {
       </div>
 
       {/* Centered name + designation + tagline */}
-      <div className="relative z-10 flex-1 flex flex-col items-center justify-center pb-8">
+      <div className="relative z-10 flex-1 flex flex-col items-center justify-end pb-20">
         <Reveal delay={0.1}>
-          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem] font-extrabold leading-none tracking-tight text-center text-foreground uppercase whitespace-nowrap drop-shadow-[0_0_20px_hsl(var(--primary)/0.15)]">
+          <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold leading-none tracking-tight text-center text-foreground uppercase whitespace-nowrap drop-shadow-[0_0_20px_hsl(var(--primary)/0.15)]">
             Jeseena <span className="gradient-text drop-shadow-[0_0_30px_hsl(var(--primary)/0.2)]">Parveen K</span>
           </h1>
         </Reveal>
 
         <Reveal delay={0.15}>
-          <p className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light tracking-[0.25em] uppercase text-muted-foreground text-center mt-4">
+          <p className="font-heading text-lg sm:text-xl md:text-2xl lg:text-3xl font-light tracking-[0.25em] uppercase text-muted-foreground text-center mt-4">
             Data Analyst
           </p>
         </Reveal>
